@@ -7,7 +7,7 @@ terraform {
   }
  
   backend "s3" {
-    bucket = "hasham-terraform-state-123" 
+    bucket = "terraform-project-03" 
     key    = "portfolio/terraform.tfstate"
     region = "ap-south-1"
   }
